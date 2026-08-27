@@ -37,7 +37,7 @@ pip install -r requirements.txt
 pip install git+https://github.com/facebookresearch/segment-anything.git
 pip install groundingdino-py>=0.4
 # ViP-LLaVA (used only by the annotation app and the text-cost script):
-#   git clone https://github.com/mu-cai/ViP-LLaVA  # place beside this repo
+#   git clone https://github.com/WisconsinAIVision/ViP-LLaVA  # place beside this repo
 ```
 
 The annotation web app also expects the `ViP-LLaVA` repository on
@@ -193,3 +193,14 @@ A short screen-capture walkthrough of the full annotation flow (mask
 correction → token-by-token click → save):
 
 ![Annotation tool demo](demo/Demo_video_for_proposed_annotation_interface.gif)
+
+## Acknowledgements
+
+This codebase builds on the following excellent projects:
+
+* [DETRIS](https://github.com/jiaqihuang01/DETRIS) — base referring image segmentation model
+* [Segment Anything](https://github.com/facebookresearch/segment-anything) — mask generation / correction
+* [GroundingDINO](https://github.com/idea-research/groundingdino) — open-vocabulary box grounding for pseudo masks
+* [ViP-LLaVA](https://github.com/WisconsinAIVision/ViP-LLaVA) — region-aware captioning for pseudo texts
+
+We thank the authors for releasing their code.
