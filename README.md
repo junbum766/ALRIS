@@ -198,6 +198,7 @@ correction → token-by-token click → save):
 
 This codebase builds on the following excellent projects:
 
+* [ETRIS](https://github.com/kkakkkka/ETRIS) — overall codebase (data pipeline, LMDB loader, training / evaluation framework)
 * [DETRIS](https://github.com/jiaqihuang01/DETRIS) — base referring image segmentation model
 * [Segment Anything](https://github.com/facebookresearch/segment-anything) — mask generation / correction
 * [GroundingDINO](https://github.com/idea-research/groundingdino) — open-vocabulary box grounding for pseudo masks
