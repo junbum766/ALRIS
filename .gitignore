@@ -5,7 +5,6 @@ __pycache__/
 .idea/
 .vscode/
 exp/
-datasets/
 pretrain/
 project/app_ours_annotation/uploads/
 project/app_ours_annotation/masks/
