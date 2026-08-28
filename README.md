@@ -4,6 +4,12 @@ Cost-Efficient Active Learning for Referring Image Segmentation and Grounding.
 
 > **Accepted to Findings of EMNLP 2026.**
 
+Junbeom Hong<sup>1&ast;</sup>, Seonghoon Yu<sup>2&ast;</sup>, Hyung Rok Jung<sup>3</sup>, Sundong Kim<sup>3</sup>, Jeany Son<sup>4</sup>
+
+<sup>1</sup>Meissa &nbsp;&nbsp; <sup>2</sup>KAIST &nbsp;&nbsp; <sup>3</sup>GIST &nbsp;&nbsp; <sup>4</sup>POSTECH
+
+<sup>&ast;</sup>Equal contribution.
+
 ## Repository layout
 
 ```
